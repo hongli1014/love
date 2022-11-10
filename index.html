@@ -6,7 +6,6 @@
   <meta name="Author" content="chl">
   <meta name="Keywords" content="love">
   <link rel="icon" type="image/png" href="favicon.png">
-  <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
   <title>xiangrong</title>
 </head>
 <style>
@@ -29,30 +28,17 @@
   <canvas id="pinkboard"></canvas>
   <audio src="music.mp3" id="music" autoplay="autoplay" controls="controls" loop="loop"></audio>
   <script>
-    //--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
-    document.addEventListener('touchstart', function () {
-      function audioAutoPlay() {
-        var audio = document.getElementById('music');
-        audio.play();
-      }
-      audioAutoPlay();
-    });
 
-    function autoPlayVideo() {
-      wx.config({
-        debug: false,
-        appId: "",
-        timestamp: 1,
-        nonceStr: "",
-        signature: "",
-        jsApiList: []
-      });
-      wx.ready(function () {
-        var autoplayVideo = document.getElementById("audio");
-        autoplayVideo.play()
-      })
-    };
-    autoPlayVideo();
+    // js设置自动播放
+
+
+
+
+
+
+
+
+    // js设置自动播放
 
     var settings = {
       particles: {
